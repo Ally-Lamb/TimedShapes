@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TITLE AT TOP OF WEB PAGE TAG-->
+    <title>ALISON LAMB 20210674</title>
+    <style>
+        /*THIS IS SETTING THE STYLE FOR THE PAGE CONTAINER (BACKGROUND SETTINGS) AND LAYOUT FOR THE JAVASCRIPT SHAPES TO PLACE INTO*/
+        .container {
+            /*THIS CREATES PADDING AROUND THE EDGE OF THE PAGES OUT LAYER*/
+            padding: 60px;
+            /*THIS SETS THE BACKGROUND COLOUR*/
+            background-color: #000000;
+            /*DISPLAY FLEX RUNS THE SHAPES BESIDE EACH OTHER*/
+            display: flex;
+            /*FLEX DIRECTION INSURES SHAPES RUN ACROSS THE PAGE IN A ROW NOT DOWN THE PAGE IN COLUMNS*/
+            flex-direction: row;
+            /*FLEX WRAP INSURES ONCE SHAPES HAVE FILLED THE ROW LENGTH IT WILL STACK ANOTHER ROW UNDERNEATH IT*/
+            flex-wrap: wrap;
+            /*MARGINS SET TO 0 IN CONTAINER, MARGINS ARE SET THROUGH JAVASCRIPT FOR SHAPE SPACE*/
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!--SETTING DIV CONTAINER FOR PAGE LAYOUT -->
+    <div class="container"></div>
+
+    <!--Script source library links React/Dom--->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!--Accessing Babel library tool-->
+    <!--This tool lets you write Javascript code using latest syntax and features, and run it in browsers that may not support those features-->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="js/multipleShapes.js"></script>
+</body>
+
+</html>
